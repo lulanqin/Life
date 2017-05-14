@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="#f5f5f5" />
+
+    <RadioGroup
+        android:id="@+id/main_bottom_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/little_space"
+            android:drawableTop="@drawable/main_home_selector"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="美食"
+            android:textColor="@drawable/main_color_selector"
+            android:checked="false" />
+
+
+        <RadioButton
+            android:id="@+id/main_focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/little_space"
+            android:drawableTop="@drawable/main_focus_selector"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="热点"
+            android:textColor="@drawable/main_color_selector" />
+
+        <RadioButton
+            android:id="@+id/main_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/little_space"
+            android:drawableTop="@drawable/main_news_selector"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="资讯"
+            android:textColor="@drawable/main_color_selector" />
+
+        <RadioButton
+            android:id="@+id/main_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/little_space"
+            android:drawableTop="@drawable/main_book_selector"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:text="图书"
+            android:textColor="@drawable/main_color_selector" />
+
+
+        <!--       <RadioButton
+                   android:id="@+id/main_my"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:button="@null"
+                   android:drawablePadding="@dimen/little_space"
+                   android:drawableTop="@drawable/main_my_selector"
+                   android:gravity="center"
+                   android:paddingLeft="0dp"
+                   android:scaleX="0.8"
+                   android:scaleY="0.8"
+                   android:text="我的"
+                   android:textColor="@drawable/main_color_selector" />-->
+    </RadioGroup>
+
+</LinearLayout>
+

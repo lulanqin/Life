@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <TextView android:layout_height="45dp"
+            android:layout_width="match_parent"
+            android:text="热点类别"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e8e8e8"/>-->
+
+    <!--    <GridView
+            android:id="@+id/gv_focus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:columnWidth="90dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp"/>-->
+
+    <GridView
+        android:id="@+id/gv_focus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="3">
+    </GridView>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#e8e8e8"/>
+
+    <!--    <ListView
+            android:id="@+id/lv_focus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"/>-->
+
+    <com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView
+        android:id="@+id/rv_focus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

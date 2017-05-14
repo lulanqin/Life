@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="Black">#000000</color>
+    <color name="darkBlack">#696969</color>
+
+    <color name="darkGray">#bebebe</color>
+
+    <color name="normal_blue_color">#1296db</color>
+    <color name="normal_bg_color">#E0DFE0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#696969</color>
+    <color name="red">#ff0000</color>
+    <!-- 点击时背景色 -->
+    <color name="background_tab_pressed">#FFFFFF</color>
+
+    <!-- 主景色 -->
+    <color name="main_color">#9dc4ef</color>
+
+    <!-- 主景色 -->
+    <color name="font_color">#3c3a3b</color>
+</resources>

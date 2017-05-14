@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_focus"
+    android:layout_width="match_parent"
+    android:layout_height="170dp">
+
+    <ImageView
+        android:id="@+id/iv_FoodList_img"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@mipmap/error"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_FoodList_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_FoodList_img"
+        android:layout_toRightOf="@+id/iv_FoodList_img"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/Black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_FoodList_keyword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_FoodList_name"
+        android:layout_below="@+id/tv_FoodList_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text=""
+        android:textColor="@color/darkBlack"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_FoodList_material"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_FoodList_name"
+        android:layout_below="@+id/tv_FoodList_keyword"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text=""
+        android:textColor="@color/darkGray"
+        android:textSize="12sp" />
+
+</RelativeLayout>
